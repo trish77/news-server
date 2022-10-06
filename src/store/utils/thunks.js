@@ -1,6 +1,6 @@
 import { createAsyncThunk } from '@reduxjs/toolkit'
 import axios from 'axios';
-const URL_SERV = "http://localhost:3001";
+const URL_SERV = "https://my-json-server.typicode.com/trish77/news-db";
 
 
 export const fetchPosts = createAsyncThunk(
